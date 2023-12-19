@@ -31,10 +31,13 @@ body {
 .welcome{
   position: absolute;
   top: 8%;
-  left: 25%;
+  bottom: 90%;
+  left: 32vw;
+  right : 32vw;
   transform: translate(0%, -10%);
   font-weight : 800;
   font-size: 1.2rem;
+  text-align : center;
   
 }
 .logo{
@@ -45,8 +48,9 @@ body {
 }
 .subtitle{
   position: absolute;
-  top: 12%;
-  left: 30%;
+  top: 15%;
+  bottom:78%;
+  left:28vw;
   font-weight : 600;
   font-size: 0.8rem;
 }
@@ -72,7 +76,7 @@ color : black;
 	margin: 20px;
 	overflow: hidden;
 	width: 92%;
-	height : 27vh;
+	height : 25vh;
 }
 
 .course h6 {
@@ -103,14 +107,16 @@ color : black;
 .course-preview a {
 	color: #fff;
 	display: inline-block;
-	font-size: 12px;
+	font-size: 10px;
 	opacity: 0.6;
-	margin-top: 30px;
+	margin-top: 20px;
 	text-decoration: none;
 }
 
 .course-info {
 	padding: 30px;
+	padding-top: 5px;
+	padding-left : 20px;
 	position: relative;
 	width: 100%;
 }
@@ -137,4 +143,5 @@ color : black;
 	bottom: -6px;
 	right: 22px;
 	letter-spacing: 1px;
+	max-width :80px;
 }
