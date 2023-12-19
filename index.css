@@ -3,20 +3,17 @@
 * {
   box-sizing: border-box;
   align-items: center;
-  font-family: sans-serif;
   margin: 0%;
   padding: 0%;
   color: white;
 }
 body {
-	background-image: linear-gradient(45deg, #7175da, #9790F2);
+	background-image: linear-gradient(45deg, #71cada, #e9d7ef);
 	font-family: 'Muli', sans-serif;
-	
-	
 }
 
 #backimg {
-  height: 30vh;
+  height: 20vh;
   width: 100%;
   position: relative;
   filter: blur(1px);
@@ -33,8 +30,8 @@ body {
 
 .welcome{
   position: absolute;
-  top: 10%;
-  left: 15%;
+  top: 8%;
+  left: 25%;
   transform: translate(0%, -10%);
   font-weight : 800;
   font-size: 1.2rem;
@@ -44,11 +41,12 @@ body {
   position: absolute;
   top: 8px;
   left: 16px;
+  display : flex;
 }
 .subtitle{
   position: absolute;
-  top: 16%;
-  left: 28%;
+  top: 12%;
+  left: 30%;
   font-weight : 600;
   font-size: 0.8rem;
 }
@@ -94,7 +92,12 @@ color : black;
 	background-color: #2A265F;
 	color: #fff;
 	padding: 30px;
-	max-width: 250px;
+	max-width: 170px;
+}
+
+.course-preview-two
+{
+	background-color:rgb(26, 178, 224);
 }
 
 .course-preview a {
@@ -131,7 +134,7 @@ color : black;
 	font-size: 6px;
 	padding: 12px 25px;
 	position: absolute;
-	bottom: 3px;
+	bottom: -6px;
 	right: 22px;
 	letter-spacing: 1px;
 }
