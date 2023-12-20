@@ -15,7 +15,7 @@ body {
 }
 
 #backimg {
-  height: 20vh;
+  height: 25vh;
   width: 100%;
   position: relative;
   filter: blur(1px);
