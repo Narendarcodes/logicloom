@@ -56,6 +56,23 @@
     position: relative;
     width: 100%;
      }
+  #navigation {
+      text-align: center;
+      margin-top: 10px;
+  }
+  a:hover {
+    background-color: #0056b3;
+}
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 0 10px;
+}
   .content {
     padding: 2rem 1.5rem;
     background-color: var(--content-bg-color);
