@@ -53,7 +53,7 @@
     background-color: var(--content-header);
   }
   #img3{
-    
+    position: relative;
     width: 100%;
      }
   #navigation {
