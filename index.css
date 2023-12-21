@@ -11,7 +11,7 @@
 }
 body {
 	background: rgb(0,152,182);
-background: linear-gradient(149deg, rgba(0,152,182,1) 0%, rgba(9,53,121,1) 73%, rgba(11,3,171,1) 92%);
+background: linear-gradient(149deg, rgba(0, 152, 182, 0.499) 0%, rgba(20, 77, 162, 0.795) 73%, rgba(80, 73, 208, 0.499) 92%);
 	font-family: 'Muli', sans-serif;
 }
 
@@ -37,10 +37,11 @@ background: linear-gradient(149deg, rgba(0,152,182,1) 0%, rgba(9,53,121,1) 73%, 
   bottom: 90%;
   left: 32vw;
   right : 32vw;
+  font-weight: 900;
   transform: translate(0%, -10%);
-  font-weight : 800;
   font-size: 1.2rem;
   text-align : center;
+  font-family: 'Libre Baskerville', serif;
   
 }
 .logo{
@@ -53,9 +54,11 @@ background: linear-gradient(149deg, rgba(0,152,182,1) 0%, rgba(9,53,121,1) 73%, 
   position: absolute;
   top: 15%;
   bottom:78%;
-  left:28vw;
+  left:25vw;
   font-weight : 600;
   font-size: 0.8rem;
+  font-family: 'Libre Baskerville', serif;
+  
 }
 .coursecontainer{
   height : 75vh;
@@ -95,15 +98,15 @@ font-size: 1.2rem;
 }
 
 .course-preview {
-	background-color: #2A265F;
+	background-color: #045942;
 	color: #fff;
 	padding: 30px;
-	max-width: 170px;
+	max-width: 160px;
 }
 
 .course-preview-two
 {
-	background-color:rgb(26, 178, 224);
+	background-color:rgb(190, 154, 6);
 }
 
 .course-preview a {
