@@ -98,7 +98,7 @@ font-size: 1.2rem;
 }
 
 .course-preview {
-	background-color: #045942;
+	background-color: #008f69;
 	color: #fff;
 	padding: 30px;
 	max-width: 160px;
@@ -106,7 +106,7 @@ font-size: 1.2rem;
 
 .course-preview-two
 {
-	background-color:rgb(190, 154, 6);
+	background-color:rgba(8, 123, 165, 0.952);
 }
 
 .course-preview a {
