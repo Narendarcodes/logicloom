@@ -13,11 +13,7 @@
     box-sizing: border-box;
     background-color: var(--bg-color);
     color: var(--font-color);
-<<<<<<< HEAD
-    font-family: 'Roboto Condensed', sans-serif;;
-=======
     font-family: Comic Sans MS, Comic Sans;
->>>>>>> 6e7d88e57141bc32dda8dab927aecf25205b1a43
     font-size: 24px;
   }
   
