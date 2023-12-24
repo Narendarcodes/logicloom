@@ -76,12 +76,15 @@
     height: 250px; /* Adjust the height of the container as needed */
     border: 1px solid #ccc; /* Optional: border for visualization */
   }
-
   /* Image styling */
   #img3 {
     max-width: 100%;
     max-height: 30vh;
    
+  }
+  #flow{
+    width:90%;
+    height:100%;
   }
   .topicstart :first-child{
     font-weight :800;
