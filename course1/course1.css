@@ -82,10 +82,6 @@
     max-height: 30vh;
    
   }
-  #flow{
-    width:90%;
-    height:100%;
-  }
   .topicstart :first-child{
     font-weight :800;
     font-size: 3rem;
