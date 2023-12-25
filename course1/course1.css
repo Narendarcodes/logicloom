@@ -129,13 +129,13 @@
     font-size: 1.1rem;
     padding: 10px 10px 20px 30px;
     font-weight: 300;
+  
   }
   ul.custom-list li::before {
     content: "\2022"; 
     color: rgb(12, 12, 12); 
     font-size: 1.5em;
     margin-right: 0.5em; 
-    
   
   }
   @media only screen and (max-width: 768px) {
