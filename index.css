@@ -129,11 +129,11 @@ color : black;
 	border-radius: 10px;
 	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 	display: flex;
-	max-width: 100%;
+	max-width: 90%;
 	margin: 20px;
 	overflow: hidden;
-	width: 92%;
-	height : 25vh;
+	max-height : 23vh;
+  overflow: -moz-hidden-unscrollable;
 }
 
 .course h6 {
