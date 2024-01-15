@@ -104,13 +104,13 @@ body {
  .lgntext{
   position: absolute;
   top: 3px;
-  left:280px
+  left:270px
  }
 .usericon
 {
   position: absolute;
   top: 0px;
-  left:330px
+  left:315px;
 }
 .coursecontainer{
   height : 75vh;
