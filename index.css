@@ -101,15 +101,16 @@ body {
   left: 16px;
   display : flex;
 }
-.subtitle{
+ .lgntext{
   position: absolute;
-  top: 15%;
-  bottom:78%;
-  left:25vw;
-  font-weight : 600;
-  font-size: 0.8rem;
-  font-family: 'Libre Baskerville', serif;
-  
+  top: 3px;
+  left:280px
+ }
+.usericon
+{
+  position: absolute;
+  top: 0px;
+  left:330px
 }
 .coursecontainer{
   height : 75vh;
