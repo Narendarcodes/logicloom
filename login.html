@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPTLOGILOOM-LOGIN</title>
+    <link rel="stylesheet" href="login.css">
+    <script>
+        $('.message a').click(function(){
+    $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+ });
+    </script>
+
+</head>
+<body>
+ 
+<div class="container">
+    <div class="info">
+      <h1>Login</h1> 
+    </div>
+  </div>
+  <div class="form">
+    <div class="thumbnail"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/hat.svg"/></div>
+    <form class="login-form">
+      <input type="email" placeholder="Email"/>
+      <input type="password" placeholder="Password"/>
+      <button>login</button>
+      <p class="message"><a href="#">Forgot Password?</a></p>
+    </form>
+  </div>
+
+</body>
+</html>
