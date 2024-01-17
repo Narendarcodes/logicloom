@@ -24,7 +24,7 @@
 }
 
 .form .input {
-  width: 100%;
+  width: 92%;
   background: white;
   border: none;
   padding: 15px 20px;
@@ -61,7 +61,7 @@
 
 .form .login-button {
   display: block;
-  width: 100%;
+  width: 92%;
   font-weight: bold;
   background: linear-gradient(45deg, rgb(16, 137, 211) 0%, rgb(18, 177, 209) 100%);
   color: white;
