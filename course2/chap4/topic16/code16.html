@@ -12,31 +12,99 @@
 <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <div class="main-header">
-      <span class="material-symbols-outlined" onclick="window.location.href='../index.html'">
-        home
-      </span>
-     <!--topic name-->Differences
-     </div>
-     <div class="topicstart">
-          <p>Differences between Procedural oriented programming language and Object oriented programming language</p><!--topic name between p tag-->
-        </div>
-              
-          <img src="pop_oop.png" id="flow">
-
         
-        
-          <div>
-            <h2>Resources :</h2>
-                 <div class="fluid-yt">
-                <!--replace youtube link-->
-              <iframe src="https://www.youtube.com/embed/LA2LIBZGink?si=xUBD2PzjaelEfcLO" title="YouTube video player"   
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <!--String-Handling Functions-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>C Programming</title>
+<link rel="stylesheet" href="course2.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<div class="main-header">
+<span class="material-symbols-outlined" onclick="window.location.href='../index.html'">
+home
+</span>
+String-Handling Functions
+</div>
+<div class="topicstart">
+<p>String-Handling Functions</p><!--topic name between p tag-->
+</div>
+<ul class="custom-list">
+<li>In C, string handling is commonly done using functions from the <string.h> library. </li>
+<li>Some essential functions include:</li>
+<li><b>strlen(str):</b><br>Returns the length of the string str.</li>
+<li><b>strcpy(dest, src):</b><br>Copies the string src to dest. strcat(dest, src): Concatenates the string src onto the end of dest.</li>
+<li><b>strcmp(str1, str2): </b><br>Compares two strings str1 and str2.</li>
+<li><b> strchr(str, ch):</b><br> Returns a pointer to the first occurrence of character ch in string str.</li>
+<li>  <b>strstr(str1, str2): </b><br>Returns a pointer to the first occurrence of string str2 in string str.</li>
+<li>Example: </li>
+<div class="card">
+            <div class="header">
+              <div class="top">
+                <div class="circle">
+                  <span class="red circle2"></span>
+                </div>
+                <div class="circle">
+                  <span class="yellow circle2"></span>
+                </div>
+                <div class="circle">
+                  <span class="green circle2"></span>
+                </div>
+                <div class="title">
+                  <p id="title2">Program.c</p>
+                </div>
+              </div>
             </div>
-          </div>        
+            <div class="code-container">
+              <textarea readonly="" name="code" id="code" class="area">
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char str1[20] = "Hello";
+    char str2[20] = "World";
+    // Concatenate str2 onto str1
+    strcat(str1, str2);
+    // Print the result
+    printf("Concatenated string: %s\n", str1);
+    // Find the length of the string
+    int length = strlen(str1);
+    printf("Length of the string: %d\n", length);
+    // Compare two strings
+    if (strcmp(str1, "HelloWorld") == 0) {
+        printf("Strings are equal.\n");
+    } else {
+        printf("Strings are not equal.\n");
+    }
+    return 0;
+}
+
+           </textarea
+              >
+            </div>
+          </div>
+<p>Output:<br>
+Concatenated string: HelloWorld<br>
+Length of the string: 10<br>
+Strings are equal.<br>
+</p>
+<li>Make sure to handle memory carefully, and consider using safer alternatives like strncpy and snprintf to avoid buffer overflows.</li>
+ </ul>
+<div>
+ <h2>Resources :</h2>
+<div class="fluid-yt">
+<!--replace youtube link-->
+<iframe src="https://www.youtube.com/embed/CIRGjwYgdT4?si=Q43Rt9vXbAbJsYX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+
     <div id="navigation">
         <a href="../topic15/code15.html">Prev</a>
         <a href="../topic17/code17.html">Next</a>

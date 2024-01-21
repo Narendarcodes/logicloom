@@ -14,24 +14,66 @@
 <body>
   <div class="container">
     <div class="main-header">
-      <span class="material-symbols-outlined" onclick="window.location.href='../index.html'">
-        home
-      </span>
-     <!--topic name-->Differences
-     </div>
-     <div class="topicstart">
-          <p>Differences between Source code and Object code</p><!--topic name between p tag-->
-        </div>
-              
-          <img src="source_object.png" id="flow">
-
-        
-        <div class="topicstart">
-      <p>Differences between Linker and Loader</p><!--topic name between p tag-->
+    <span class="material-symbols-outlined" onclick="window.location.href='../index.html'">
+    home
+    </span>
+    Comparison of Two Strings
     </div>
-          
-      <img src="linker_loader.png" id="flow">
-
+    <div class="topicstart">
+    <p>Comparison of Two Strings</p><!--topic name between p tag-->
+    </div>
+    <ul class="custom-list">
+    <li>The strcmp() function is part of the standard C library ( string. h ). </li>
+    <li>Its primary purpose is to compare the characters of the two strings in sequence until it finds a mismatch or until the end of the strings is reached (that is, the null character '\0').</li>
+    <li>
+    To compare two strings in C, you can use the strcmp function from the <string.h> library. </li>
+    <li>Here's a simple example:
+    </li>
+    <div class="card">
+                <div class="header">
+                  <div class="top">
+                    <div class="circle">
+                      <span class="red circle2"></span>
+                    </div>
+                    <div class="circle">
+                      <span class="yellow circle2"></span>
+                    </div>
+                    <div class="circle">
+                      <span class="green circle2"></span>
+                    </div>
+                    <div class="title">
+                      <p id="title2">Program.c</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="code-container">
+                  <textarea readonly="" name="code" id="code" class="area">
+    #include <stdio.h>
+    #include <string.h>
+    int main() {
+        char str1[] = "Hello";
+        char str2[] = "World";
+        if (strcmp(str1, str2) == 0) {
+            printf("Strings are equal.\n");
+        } else {
+            printf("Strings are not equal.\n");
+        }
+        return 0;
+    }
+    
+               </textarea
+                  >
+                </div>
+              </div>
+    <p>Output:<br>
+    Strings are not equal.
+    </p>
+    <li>This program compares the content of str1 and str2 using strcmp. If the result is 0, the strings are equal; otherwise, they are not.  </li>
+    <li>
+    Note that strcmp is case-sensitive. If you need a case-insensitive comparison, you can use stricmp (Windows) or strcasecmp (Unix/Linux).
+     </li>
+     </ul>
+    
           <div>
             <h2>Resources :</h2>
                  <div class="fluid-yt">

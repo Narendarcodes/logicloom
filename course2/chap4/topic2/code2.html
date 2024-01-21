@@ -1,4 +1,4 @@
-<!--improtance of c-->
+   <!--One-Dimensional Arrays-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,78 +12,70 @@
 <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="main-header">
-          <span class="material-symbols-outlined" onclick="window.location.href='../index.html'">
-            home
-          </span>
-          Importance of C 
-        </div>
-        <div class="topicstart">
-          <p>Importance of C :</p>
-          </div>
-<h1>Simple and Efficient :</h1>
+
+
+<div class="container">
+<div class="main-header">
+<span class="material-symbols-outlined" onclick="window.location.href='../index.html'">
+home
+</span>
+One-Dimensional Arrays
+</div>
+<div class="topicstart">
+<p>One-Dimensional Arrays</p><!--topic name between p tag-->
+</div>
 <ul class="custom-list">
-<li>C language is known for its simple and easily comprehensible syntax, making it an excellent choice for beginners. The simplicity of C facilitates efficient application development and redesign.</li>
-<li><b>Example :</b>The syntax of C is straightforward, making it easy for beginners to grasp:</li>
-<p>#include <stdio.h> <br>
- int main() {<br>
-printf("Hello, World!\n");<br>
-return 0;<br>
+<li>A one dimensional array in C contains a series of elements of the same datatype. </li>
+<li>The elements are zero-indexed, meaning the first element is in position or index 0, and the last element is in position or index (array size) - 1.</li>
+ </ul>
+ <h1>Declaration of one dimensional array</h1>
+<ul class="custom-list">
+<li>To declare a one-dimensional array in C, you specify the data type of the elements and the name of the array followed by the size of the array in square brackets.</li>
+<li>Here's a basic example:</li>
+<div class="card">
+            <div class="header">
+              <div class="top">
+                <div class="circle">
+                  <span class="red circle2"></span>
+                </div>
+                <div class="circle">
+                  <span class="yellow circle2"></span>
+                </div>
+                <div class="circle">
+                  <span class="green circle2"></span>
+                </div>
+                <div class="title">
+                  <p id="title2">Program.c</p>
+                </div>
+              </div>
+            </div>
+            <div class="code-container">
+              <textarea readonly="" name="code" id="code" class="area">
+#include <stdio.h>
+int main() {
+    // Declare an integer array with a size of 5
+    int numbers[5];
+
+    // You can also declare and initialize the array at the same time
+    // For example, initializing an array of integers with specific values
+    int initializedArray[5] = {1, 2, 3, 4, 5};
+    return 0;
 }
-</p>
+           </textarea>
+            </div>
+          </div>
+<li>In the above example, numbers is an integer array with a size of 5, and initializedArray is another integer array initialized with specific values.</li>
+<li> Remember that the size of the array determines how many elements it can store.<\li>
+<li> The indices of the array range from 0 to size-1.</li>
 </ul>
-<h1>Fast: </h1>
-<ul class="custom-list">
-<li>Being a statically typed programming language and compiler-based, C exhibits faster execution compared to dynamic languages. Its focus on essential features enhances speed, avoiding the overhead associated with more feature-rich languages.</li>
-<li><b>Example :</b>C's compilation process leads to faster execution. In situations where speed is crucial, such as systems programming or embedded systems, C is often preferred. For instance, C can be used to implement algorithms that require quick processing.</li>
-</ul>
-<h1>Portability:</h1>
-<ul class="custom-list">
-<li>C programs are machine-independent, allowing code to run on various systems with minimal or no machine-specific modifications.This portability feature makes C versatile for deployment on different platforms.</li>
-<li><b>Example :</b>A C program written on a Windows system can typically be compiled and run on a Linux system without significant modifications. This portability is essential for cross-platform development. </li>
-</ul>
-<h1>Extensibility:</h1>
-<ul class="custom-list">
-<li>C enables quick and easy extension of programs. Existing code can be altered to add new features, functionalities, and operations without extensive modifications, providing flexibility to programmers.</li>
-<li><b>Example :</b>: Adding a new function to an existing C program is relatively simple. For instance, adding a function to calculate the square of a number:</li>
-<p>#include <stdio.h><br>
-int square(int num) {<br>
-return num * num;<br>
-}<br>
-int main() {<br>
-int result = square(5);<br>
-printf("Square: %d\n", result);<br>
-return 0;<br>
-}<br>
-</p>
-</ul>
-<h1>Function-Rich Libraries:</h1>
-<ul class="custom-list">
-<li>C comes with an extensive set of libraries that include built-in functions, simplifying coding for programmers. The availability of a vast array of functions allows the development of diverse programs and applications.</li>
-<li><b>Example :</b>Standard C libraries provide functions for various operations. For instance, the <string.h> library includes functions like strlen() and strcpy() that simplify string manipulation.</li>
-</ul>
-<h1>Dynamic Memory Management:</h1>
-<ul class="custom-list">
-<li>C supports dynamic memory management (DMA), allowing the allocation and management of data structure size during runtime.</li>
-<li><b>Example :</b>Functions like malloc(), calloc(), realloc(), and free() facilitate effective memory utilization.</li>
-</ul>
-<h1>Modularity With Structured Language:</h1>
-<ul class="custom-list">
-<li>C's modularity, coupled with its structured nature, enables breaking code into different parts using functions. These functions can be stored as libraries for future use, enhancing code organization and reusability.</li>
-</ul>
-<h1>Mid-Level Programming Language:</h1>
-<ul class="custom-list">
-<li>Originally developed for low-level programming, C has evolved to support high-level programming features, making it a mid-level language. It combines the advantages of both low and high-level languages, allowing direct hardware manipulation.</li>
-</ul>
-<h1>Structured Language:</h1>
-<ul class="custom-list">
-<li>C is a general-purpose structured language that promotes code organization through functions. This structured approach enhances code readability, reduces errors, and facilitates future maintenance.</li>
-</ul>
-<h1>Support for Hardware Manipulation:</h1>
-<ul class="custom-list">
-<li>While initially designed for low-level programming, C's evolution includes support for high-level programming features. It uniquely allows direct manipulation of hardware, a capability not typically offered by high-level programming languages.</li>
-</ul>
+<div>
+ <h2>Resources :</h2>
+<div class="fluid-yt">
+<!--replace youtube link-->
+<iframe src="https://www.youtube.com/embed/CIRGjwYgdT4?si=Q43Rt9vXbAbJsYX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+
 <div id="navigation">
 <a href="../topic1/code1.html">Prev</a>
 <a href="../topic3/code3.html">Next</a>

@@ -1,4 +1,5 @@
 <!--Algorithm -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,61 +13,99 @@
 <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  
   <div class="container">
     <div class="main-header">
-      <span class="material-symbols-outlined" onclick="window.location.href='../index.html'">
-        home
-      </span>
-     <!--topic name-->
-     Algorithm Design
+    <span class="material-symbols-outlined" onclick="window.location.href='../index.html'">
+    home
+    </span>
+    Multi-dimensional array
     </div>
-        <div class="topicstart">
-          <p>Algorithm Design</p><!--topic name between p tag-->
-        </div>
-       
-        
-        <ul class="custom-list">
-         <li>Algorithm design refers to a method or a mathematical process for problem-solving and engineering algorithms. </li>
-          <li>The design of algorithms is part of many solution theories, such as divide-and-conquer or dynamic programming within operation research. </li>
-          <li>Techniques for designing and implementing algorithm designs are also called algorithm design patterns, with examples including the template method pattern and the decorator pattern.</li>
-      
-          <h1>Typical steps in the development of algorithms :</h1>
-          <li>Problem definition</li>
-          <li>Development of a model</li>
-          <li>Specification of the algorithm</li>
-          <li>Designing an algorithm</li>
-          <li>Checking the correctness of the algorithm</li>
-          <li>Analysis of algorithm</li>
-          <li>Implementation of algorithm</li>
-          <li>Program testing</li>
-          <li>Documentation preparation</li>
-          <h1>How to write algorithms </h1>
-          <li>Define the problem you want the algorithm to solve. </li>
-          <li>Break the problem down into smaller, manageable steps</li>
-          <li>Write your algorithm in pseudocode or a programming language</li>
-          <li>Test your algorithm to make sure it is correct and efficient. </li>
-          <li>Optimize the algorithm</li>      
-        </ul>
-  
-
-
-  
-        <div>
-            <h2>Resources :</h2>
-            
-            <div class="fluid-yt">
-                <!--replace youtube link-->
-              <iframe 
-                src="https://www.youtube.com/embed/CIRGjwYgdT4?si=Q43Rt9vXbAbJsYX8"   
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </div>
-          </div>
-      
-        
+    <div class="topicstart">
+    <p>Multi-dimensional array</p><!--topic name between p tag-->
+    </div>
+    <h1>Multi-dimensional array</h1>
+    <ul class="custom-list">
+    <li>In C programming, a multi-dimensional array is essentially an array of arrays.</li> 
+    <li>It can be thought of as a table with rows and columns, where each element can be accessed using multiple indices. </li>
+    <li>The most common multi-dimensional array is a 2D array, but C also supports arrays with more than two dimensions.</li>
+    <li>In C, the syntax to declare a multi-dimensional array involves specifying the dimensions within the square brackets. 
+    </li>
+    <li> Here’s the general syntax:<br>
+    data_type array_name[size1][size2]…[sizeN];
+    </li>
+    <li>It’s important to note that when initializing the array at the time of declaration, you can use nested curly braces to specify the initial values. </li>
+    <li>Here’s an example of a 3D array:</li>
+    <div class="card">
+                <div class="header">
+                  <div class="top">
+                    <div class="circle">
+                      <span class="red circle2"></span>
+                    </div>
+                    <div class="circle">
+                      <span class="yellow circle2"></span>
+                    </div>
+                    <div class="circle">
+                      <span class="green circle2"></span>
+                    </div>
+                    <div class="title">
+                      <p id="title2">Program.c</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="code-container">
+                  <textarea readonly="" name="code" id="code" class="area">
+    #include <stdio.h>
+    int main() {
+        // Declare a 3D array with dimensions 2x3x4
+        int cube[2][3][4] = {
+            {
+                {1, 2, 3, 4},
+                {5, 6, 7, 8},
+                {9, 10, 11, 12}
+            },
+            {
+                {13, 14, 15, 16},
+                {17, 18, 19, 20},
+                {21, 22, 23, 24}
+            }
+        };
+    
+        // Access and print elements of the 3D array
+        for (int i= 0; i < 2; i++) {
+            for (int j = 0; j < 3; j++) {
+                for (int k = 0; k < 4; k++) {
+                    printf(“%d\t”, cube[i][j][k]);
+                }
+                printf(“\n”);
+            }
+            printf(“\n”);
+        }
+    
+        return 0;
+    }
+               </textarea
+                  >
+                </div>
+              </div>
+    <p>Output:<br>
+    1       2       3       4<br>
+    5       6       7       8<br>
+    9       10      11      12<br><br>
+    
+    13      14      15      16<br>
+    17      18      19      20<br>
+    21      22      23      24<br>
+    </p>
+    <li>In this example, int cube[2][3][4] declares a 3D array with dimensions 2x3x4, and the nested loops iterate over each element, printing its value.</li>
+     </ul>
+    <div>
+     <h2>Resources :</h2>
+    <div class="fluid-yt">
+    <!--replace youtube link-->
+    <iframe src="https://www.youtube.com/embed/CIRGjwYgdT4?si=Q43Rt9vXbAbJsYX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
     <div id="navigation">
         <a href="../topic5/code5.html">Prev</a>
         <a href="../topic7/code7.html">Next</a>
