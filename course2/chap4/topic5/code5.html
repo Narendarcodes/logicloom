@@ -1,0 +1,369 @@
+<!--Algorithm and its Characteristics.-->
+<!--Matrix operations-->
+
+<div class="container">
+  <div class="main-header">
+  <span class="material-symbols-outlined" onclick="window.location.href='../index.html'">
+  home
+  </span>
+  Matrix operations
+  </div>
+  <div class="topicstart">
+  <p>Matrix operations</p><!--topic name between p tag-->
+  </div>
+  <h1>Addition of Matrix</h1>
+  <ul class="custom-list">
+  
+  <div class="card">
+              <div class="header">
+                <div class="top">
+                  <div class="circle">
+                    <span class="red circle2"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="yellow circle2"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="green circle2"></span>
+                  </div>
+                  <div class="title">
+                    <p id="title2">Program.c</p>
+                  </div>
+                </div>
+              </div>
+              <div class="code-container">
+                <textarea readonly="" name="code" id="code" class="area">
+  #include<stdio.h>
+  #include<conio.h>
+   void main()
+   {
+   int a[3][3],b[3][3],c[3][3],i,j;
+  clrscr();
+  printf("\nenter elements into frst matrix= ");
+  for(i=0;i<3;i++)
+  {
+  for(j=0;j<3;j++)
+  {
+  scanf("%d",&a[i][j]);
+  }
+  }
+  printf("\n enter elements into second matrix=");
+  for(i=0;i<3;i++)
+  {
+  for(j=0;j<3;j++)
+  {
+  scanf("%d",&b[i][j]);
+  }
+  }
+  for(i=0;i<3;i++)
+  {
+  for(j=0;j<3;j++)
+  {
+  c[i][j]=0;
+  }
+  }
+  for(i=0;i<3;i++)
+  {
+  for(j=0;j<3;j++)
+  {
+  c[i][j]=a[i][j]+b[i][j];
+  }
+  }
+  printf("\n addition of two numbers=.........\n");
+  for(i=0;i<3;i++)    
+  {
+  for(j=0;j<3;j++)
+  {
+  printf("%4d",c[i][j]);
+  }
+  printf("\n");
+  }
+  getch();
+  }
+        
+             </textarea>
+              </div>
+            </div>
+  <p>Output:<br>
+  Enter elements into first matrix:<br>
+  1 2 3<br>
+  4 5 6<br>
+  7 8 9<br>
+  
+  Enter elements into second matrix:<br>
+  9 8 7<br>
+  6 5 4<br>
+  3 2 1<br>
+  
+  Addition of two matrices:<br>
+     10   10   10<br>
+     10   10   10<br>
+     10   10   10<br>
+  
+  </p>
+   </ul>
+   <h1>Subtraction of matrices</h1>
+  <ul class="custom-list">
+  <div class="card">
+              <div class="header">
+                <div class="top">
+                  <div class="circle">
+                    <span class="red circle2"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="yellow circle2"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="green circle2"></span>
+                  </div>
+                  <div class="title">
+                    <p id="title2">Program.c</p>
+                  </div>
+                </div>
+              </div>
+              <div class="code-container">
+                <textarea readonly="" name="code" id="code" class="area">
+  #include<stdio.h>
+  #include<conio.h>
+   void main()
+   {
+   int a[3][3],b[3][3],c[3][3],i,j;
+  clrscr();
+  printf("\nenter elements into frst matrix= ");
+  for(i=0;i<3;i++)
+  {
+  for(j=0;j<3;j++)
+  {
+  scanf("%d",&a[i][j]);
+  }
+  }
+  printf("\n enter elements into second matrix=");
+  for(i=0;i<3;i++)
+  {
+  for(j=0;j<3;j++)
+  {
+  scanf("%d",&b[i][j]);
+  }
+  }
+  for(i=0;i<3;i++)
+  {
+  for(j=0;j<3;j++)
+  {
+  c[i][j]=0;
+  }
+  }
+  for(i=0;i<3;i++)
+  {
+  for(j=0;j<3;j++)
+  {
+  c[i][j]=a[i][j]-b[i][j];
+  }
+  }
+  printf("\n subtraction of two numbers=.........\n");
+  for(i=0;i<3;i++)    
+  {
+  for(j=0;j<3;j++)
+  {
+  printf("%4d",c[i][j]);
+  }
+  printf("\n");
+  }
+  getch();
+  }
+  
+             </textarea
+                >
+              </div>
+            </div>
+  <p>Output:<br>
+  Enter elements into first matrix:<br>
+  1 2 3<br>
+  4 5 6<br>
+  7 8 9<br>
+  
+  Enter elements into second matrix:<br>
+  9 8 7<br>
+  6 5 4<br>
+  3 2 1<br>
+  
+  Subtraction of two matrices:<br>
+     -8   -6   -4<br>
+     -2    0    2<br>
+      4    6    8<br>
+  </p>
+   </ul>
+   <h1>Multiplication of matrices</h1>
+  <ul class="custom-list">
+  <div class="card">
+              <div class="header">
+                <div class="top">
+                  <div class="circle">
+                    <span class="red circle2"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="yellow circle2"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="green circle2"></span>
+                  </div>
+                  <div class="title">
+                    <p id="title2">Program.c</p>
+                  </div>
+                </div>
+              </div>
+              <div class="code-container">
+                <textarea readonly="" name="code" id="code" class="area">
+  #include<stdio.h>
+  #include<conio.h>
+   void main()
+   {
+   int a[3][3],b[3][3],c[3][3],i,j,k;
+  clrscr();
+  printf("\nenter elements into frst matrix= ");
+  for(i=0;i<3;i++)
+  {
+  for(j=0;j<3;j++)
+  {
+  scanf("%d",&a[i][j]);
+  }
+  }
+  printf("\n enter elements into second matrix=");
+  for(i=0;i<3;i++)
+  {
+  for(j=0;j<3;j++)
+  {
+  scanf("%d",&b[i][j]);
+  }
+  }
+  for(i=0;i<3;i++)
+  {
+  for(j=0;j<3;j++)
+  {
+  c[i][j]=0;
+  }
+  }
+  for(i=0;i<3;i++)
+  {
+  for(j=0;j<3;j++)
+  {
+  c[i][j]+=a[i][k]*b[k][j];
+  }
+  }
+  printf("\n multiplication of two numbers=.........\n");
+  for(i=0;i<3;i++)    
+  {
+  for(j=0;j<3;j++)
+  {
+  printf("%4d",c[i][j]);
+  }
+  printf("\n");
+  }
+  getch();
+  }
+             </textarea
+                >
+              </div>
+            </div>
+  <p>Output:<br>
+  Enter elements into first matrix:<br>
+  1 1 1<br>
+  1 1 1<br>
+  1 1 1<br>
+  
+  Enter elements into second matrix:<br>
+  1 1 1<br>
+  1 1 1<br>
+  1 1 1<br>
+  
+  Multiplication of two matrices:<br>
+  3 3 3<br>
+  3 3 3<br>
+  3 3 3<br>
+  
+  </p>
+   </ul>
+   <h1>Transpose of a matrix</h1>
+  <ul class="custom-list">
+  <div class="card">
+              <div class="header">
+                <div class="top">
+                  <div class="circle">
+                    <span class="red circle2"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="yellow circle2"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="green circle2"></span>
+                  </div>
+                  <div class="title">
+                    <p id="title2">Program.c</p>
+                  </div>
+                </div>
+              </div>
+              <div class="code-container">
+                <textarea readonly="" name="code" id="code" class="area">
+           #include<stdio.h>
+  #include<conio.h>
+   void main()
+   {
+   int a[3][3],c[3][3],i,j;
+  clrscr();
+  printf("\nenter elements into frst matrix= ");
+  for(i=0;i<3;i++)
+  {
+  for(j=0;j<3;j++)
+  {
+  scanf("%d",&a[i][j]);
+  }
+  }
+  for(i=0;i<3;i++)
+  {
+  for(j=0;j<3;j++)
+  {
+  c[i][j]=0;
+  }
+  }
+  for(i=0;i<3;i++)
+  {
+  for(j=0;j<3;j++)
+  {
+  c[i][j]=a[j][i];
+  }
+  }
+  printf("\n transpose of a matrix=.........\n");
+  for(i=0;i<3;i++)    
+  {
+  for(j=0;j<3;j++)
+  {
+  printf("%4d",c[i][j]);
+  }
+  printf("\n");
+  }
+  getch();
+  }
+     </textarea
+                >
+              </div>
+            </div>
+  <p>Output:<br>
+  Enter elements into first matrix:<br>
+  1 2 3<br>
+  4 5 6<br>
+  7 8 9<br>
+  
+  Transpose of a matrix:<br>
+     1   4   7<br>
+     2   5   8<br>
+     3   6   9<br>
+  
+  </p>
+   </ul>
+    
+    <div id="navigation">
+        <a href="../topic4/code4.html">Prev</a>
+        <a href="../topic6/code6.html">Next</a>
+    </div>
+    </div>
+    </body>
+    </html>

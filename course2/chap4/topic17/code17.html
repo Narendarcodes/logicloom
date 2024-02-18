@@ -1,0 +1,88 @@
+<!--Difference between 	compiler and interpreter, machine code and assembly code  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coding basics</title>
+    <link rel="stylesheet" href="../course2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body><div class="container">
+  <div class="main-header">
+  <span class="material-symbols-outlined" onclick="window.location.href='../index.html'">
+  home
+  </span>
+  Table of Strings 
+  </div>
+  <div class="topicstart">
+  <p>Table of Strings </p><!--topic name between p tag-->
+  </div>
+  
+  <ul class="custom-list">
+  <li>To create a table of strings in C, you can use a 2D array where each row represents a string. </li>
+  <li>Here's a basic example:</li>
+  <div class="card">
+              <div class="header">
+                <div class="top">
+                  <div class="circle">
+                    <span class="red circle2"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="yellow circle2"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="green circle2"></span>
+                  </div>
+                  <div class="title">
+                    <p id="title2">Program.c</p>
+                  </div>
+                </div>
+              </div>
+              <div class="code-container">
+                <textarea readonly="" name="code" id="code" class="area">
+  #include <stdio.h>
+  int main() {
+      // Define a 2D array of strings
+      char strings[3][20]; // Assuming each string can have a maximum length of 19 characters
+      // Initialize strings
+      strcpy(strings[0], "Hello");
+      strcpy(strings[1], "World");
+      strcpy(strings[2], "C Programming");
+      // Access and print strings
+      for (int i = 0; i < 3; ++i) {
+          printf("String %d: %s\n", i + 1, strings[i]);
+      }
+      return 0;
+  }
+             </textarea
+                >
+              </div>
+            </div>
+  <p>Output:<br>
+  String 1: Hello<br>
+  String 2: World<br>
+  String 3: C Programming<br>
+  </p>
+  <li>This example creates a 2D array strings with 3 rows and a maximum string length of 19 characters.</li>
+  <li> The strcpy function is used to initialize each string, and then a loop is used to print the strings.</li>
+  <li> Adjust the size of the array and strings as needed for your specific requirements.</li>
+   </ul>
+  <div>
+   <h2>Resources :</h2>
+  <div class="fluid-yt">
+  <!--replace youtube link-->
+  <iframe src="https://www.youtube.com/embed/CIRGjwYgdT4?si=Q43Rt9vXbAbJsYX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  </div>
+       
+    <div id="navigation">
+        <a href="../topic16/code16.html">Prev</a>
+        <a href="../topic18/code18.html">Next</a>
+    </div>
+    </div>
+    </body>
+    </html>

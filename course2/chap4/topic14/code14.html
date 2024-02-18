@@ -1,0 +1,103 @@
+<!--Structure of C-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C Programming</title>
+    <link rel="stylesheet" href="../course2.css">
+    <link rel="stylesheet" href="../c1.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--Putting Strings Together-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>C Programming</title>
+<link rel="stylesheet" href="course2.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<div class="main-header">
+<span class="material-symbols-outlined" onclick="window.location.href='../index.html'">
+home
+</span>
+Putting Strings Together
+</div>
+<div class="topicstart">
+<p>Putting Strings Together</p><!--topic name between p tag-->
+</div>
+<ul class="custom-list">
+<li>The strcat() function is a useful tool in C programming for concatenating strings.</li>
+<li>It allows joining two or more strings together, which are useful in various programming tasks.</li>
+<li>In C, you can concatenate strings using the strcat function from the <string.h> library.</li>
+<li> Ensure the destination string has enough space to accommodate the combined strings. </li>
+<li>Here's a basic example:
+</li>
+<div class="card">
+            <div class="header">
+              <div class="top">
+                <div class="circle">
+                  <span class="red circle2"></span>
+                </div>
+                <div class="circle">
+                  <span class="yellow circle2"></span>
+                </div>
+                <div class="circle">
+                  <span class="green circle2"></span>
+                </div>
+                <div class="title">
+                  <p id="title2">Program.c</p>
+                </div>
+              </div>
+            </div>
+            <div class="code-container">
+              <textarea readonly="" name="code" id="code" class="area">
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char str1[50] = "Hello, ";
+    char str2[] = "world!";
+    strcat(str1, str2);
+    printf("Concatenated string: %s\n", str1);
+    return 0;
+}
+
+           </textarea
+              >
+            </div>
+          </div>
+<p>Output:<br>
+Concatenated string: Hello, world!
+</p>
+<li>This program initializes str1 with "Hello, " and then concatenates str2 ("world!") using strcat. 
+</li>
+<li>Make sure the destination string (str1 in this case) has enough space to hold both strings.</li>
+ </ul>
+
+ </ul>
+<div>
+ <h2>Resources :</h2>
+<div class="fluid-yt">
+<!--replace youtube link-->
+<iframe src="https://www.youtube.com/embed/CIRGjwYgdT4?si=Q43Rt9vXbAbJsYX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+
+    <div id="navigation">
+        <a href="../topic13/code13.html">Prev</a>
+        <a href="../topic15/code15.html">Next</a>
+    </div>
+    </div>
+    </body>
+    </html>
